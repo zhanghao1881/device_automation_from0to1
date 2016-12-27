@@ -2,6 +2,7 @@ int trig = 3;
 int echo = 4;
 void setup() {
   Serial.begin(9600);
+  pinMode(trig,OUTPUT);
 }
 int get_dist()
 {
